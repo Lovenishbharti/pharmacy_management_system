@@ -1,0 +1,26 @@
+INSERT INTO `mydata`.`pharmacy`
+(`Ref_no`,
+`CmpName`,
+`TypeMed`,
+`LotNo`,
+`Issuedate`,
+`Expdata`,
+`Sideeffect`,
+`warning`,
+`dosage`,
+`Price`,
+`product`)
+VALUES
+(<{Ref_no: }>,
+<{CmpName: }>,
+<{TypeMed: }>,
+<{MedName}>,
+<{LotNo: }>,
+<{Issuedate: }>,
+<{Expdata: }>,
+<{uses}>,
+<{Sideeffect: }>,
+<{warning: }>,
+<{dosage: }>,
+<{Price: }>,
+<{product: }>);
